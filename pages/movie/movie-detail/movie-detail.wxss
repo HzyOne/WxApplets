@@ -1,0 +1,153 @@
+/* pages/movie/movie-detail/movie-detail.wxss */
+
+.container{
+  background-color: #e5e2e2;
+}
+
+.movieContent{
+  display: flex;
+  flex-direction: row;
+  background-color: #222222;
+}
+
+.moviePic{
+  margin: 20rpx;
+  width: 220rpx;
+  height: 280rpx;
+  border: 1px solid #999;
+}
+
+.movieData{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rpx;
+}
+
+.movieName{
+  font-size: 38rpx;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.movieNameEn{
+  font-size: 20rpx;
+  margin-bottom: 10rpx;
+  color: #999;
+}
+
+.movieDataType{
+  font-size: 24rpx;
+  margin-top: 5rpx;
+  color: #999;
+}
+
+.movieBtn{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30rpx;
+}
+
+.movieLike,.moviePost{
+  display: flex;
+  flex-direction: row;
+  width: 200rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  font-size: 24rpx;
+  color: #ffffff;
+  border-radius: 3px;
+  border: 1px solid #999;
+  background-color: #575656;
+  align-items: center;
+  justify-content: center;
+}
+
+.movieItem{
+  display: flex;
+  flex-direction: row;
+  width: 200rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  font-size: 24rpx;
+  color: #b6b4b4;
+  border-radius: 3px;
+  border: 1px solid #999;
+  background-color: #3d3d3d;
+  align-items: center;
+  justify-content: center;
+}
+
+.moviePost{
+  margin-left: 30rpx;
+}
+
+.movieLike image , .moviePost image{
+  width: 35rpx;
+  height: 35rpx;
+}
+
+.movieLike text , .moviePost text{
+  letter-spacing: 3rpx;
+  margin-left: 6rpx;
+}
+
+
+.movieText{
+  color: #666;
+  font-size: 28rpx;
+  line-height: 44rpx;
+  letter-spacing: 2px;
+}
+
+.ticket-detail-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.movieCollapse{
+  margin-right: 20rpx;
+}
+
+.boxOfficeContainer{
+  display: flex;
+  flex-direction: column;
+  height: 220rpx;
+  margin: 30rpx 0rpx;
+  border:1px solid #999;
+  background-color: #ffffff;
+}
+
+.boxOffice{
+  font-size: 34rpx;
+  font-weight: bold;
+  margin: 18rpx;
+}
+.totalBoxOffice{
+  display: flex;
+  flex-direction: row;
+  margin-left: 40rpx;
+}
+
+.total-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40rpx;
+}
+
+.total-item text:first-child{
+  font-size: 42rpx;
+  /* font-weight: bold; */
+  color: #DC143C;
+}
+
+.total-item text:last-child{
+  margin-top: 10rpx;
+  font-size: 26rpx;
+  color: #999;
+}

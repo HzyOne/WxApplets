@@ -1,0 +1,8 @@
+<!--pages/movie/movie.wxml-->
+<import src="movie-item/movie-item-template.wxml" />
+
+<block wx:for="{{movies_key}}" wx:for-item="item">
+  <view bind:tap="onPostTap" data-movieId="{{item.movieId}}">
+    <template is="movieItem" data="{{...item}}"></template>
+  </view>
+</block>

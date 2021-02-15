@@ -1,0 +1,28 @@
+<template name="movieItem">
+  <view class="movieCont">
+    <view class="movieCont-item">
+      <image class="moviePoster" src="{{moviePoster}}"></image>
+    </view>
+    <view class="movieCont-instroduce">
+      <view class="movieTitle">
+        <text class="movieName">{{movieName}}</text>
+        <text wx:if="{{collects}}" class="movieWant">已想看</text>
+        <text wx:else></text>
+      </view>
+      <view class="movie-fraction">
+        <text class="instFraction-item">电影评分\r\t\r\t</text>
+        <text class="fraction-item">{{fraction}}</text>
+      </view>
+      <text class="performer">主演：{{performer}}</text>
+      <view class="toSeeData">
+        <image src="../../images/icon/view.png"></image>
+        <text>{{peopleToSee}}</text>
+        <image src="../../images/icon/star.png" class="toSeeLike"></image>
+        <text>{{peopleLikeSee}}</text>
+      </view>
+    </view>
+    <view class="toSeeContarin">
+      <text class="toSee">详情</text>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,107 @@
+{
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": false,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": false,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": false,
+    "useApiHook": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.14.0",
+  "appid": "wx4f0370d1a9e73db0",
+  "projectname": "Project",
+  "debugOptions": {
+    "hidedInDevtools": []
+  },
+  "scripts": {},
+  "isGameTourist": false,
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "post-detail",
+          "pathName": "pages/posts/post-detail/post-detail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "posts",
+          "pathName": "pages/posts",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "posts",
+          "pathName": "pages/welcome/welcome",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/movie/movie",
+          "pathName": "pages/movie/movie",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/movie/movie-detail/movie-detail",
+          "pathName": "pages/movie/movie-detail/movie-detail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/movie/movie-detail/movie-detail",
+          "pathName": "pages/movie/movie-detail/movie-detail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/movie/movie-detail/movie-detail",
+          "pathName": "pages/movie/movie-detail/movie-detail",
+          "query": "id=0",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

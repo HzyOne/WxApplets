@@ -1,0 +1,60 @@
+<!--pages/movie/movie-detail/movie-detail.wxml-->
+<view class="container">
+  <view class="movieContent">
+      <image src="{{moviePoster}}" class="moviePic"></image>
+      <view class="moviePicCont">
+        <view class="movieData">
+          <text class="movieName">{{movieName}}</text>
+          <text class="movieNameEn">{{movieNameEn}}</text>
+          <text class="movieDataType">{{movieType}}</text>
+          <text class="movieDataType">{{movieArea}}</text>
+          <text class="movieDataType">{{movieShowTime}}</text>
+          <view class="movieBtn">
+            <view class="movieLike" bind:tap="onCollectedTap" style="background:{{background}};color:{{color}};">
+              <image wx:if="{{collect}}" src="../../../images/icon/heart_hl.png"></image>
+              <image wx:else src="../../../images/icon/heart.png"></image>
+              <text>想看</text>
+            </view>
+            <view class="moviePost" bind:tap="onCollectedTapIng" style="background:{{backgroundIng}};color:{{colorIng}};">
+              <image wx:if="{{collected}}" src="../../../images/icon/star.png"></image>
+              <image wx:else src="../../../images/icon/wujiao.png"></image>
+              <text>看过</text>
+            </view>
+          </view>
+        </view>
+      </view>
+  </view>
+  <l-collapse class="movieInt">
+    <l-collapse-item customTitle="{{true}}">
+      <!--自定义标题-->
+      <view slot="title">
+        <view class="ticket-detail-container">
+          <text class="movieCollapse">电影简介</text>
+          <l-icon name="down" size="28" color="#666"/>
+        </view>
+      </view>
+      <text class="movieText">{{movieIntrod}}</text>
+    </l-collapse-item>
+  </l-collapse>
+  <view class="boxOfficeContainer">
+    <text class="boxOffice">票房</text>
+    <view class="totalBoxOffice">
+      <view class="total-item">
+        <text>2</text>
+        <text>昨日票房排行</text>
+      </view>
+      <view class="total-item">
+        <text>23232</text>
+        <text>首周票房（万）</text>
+      </view>
+      <view class="total-item">
+        <text>122222</text>
+        <text>累计票房（万）</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view>
+  
+</view>

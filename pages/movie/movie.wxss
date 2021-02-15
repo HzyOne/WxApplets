@@ -1,0 +1,116 @@
+/* pages/movie/movie.wxss */
+.movieCont{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20rpx 0;
+  padding-bottom: 20rpx;
+  border-bottom:1px solid #e5e5e5;
+}
+/* 电影图片 */
+.moviePoster{
+  width: 160rpx;
+  height: 220rpx;
+}
+
+/* 电影简介 */
+.movieCont-instroduce{
+  width: 420rpx;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+}
+
+.movie-fraction{
+  display: flex;
+  flex-direction: row;
+  margin: 12rpx 0;
+  align-items: center;
+}
+
+.movieCont-item{
+  margin-left: 20rpx;
+}
+
+.movieTitle{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.movieName{
+  font-size: 38rpx;
+  font-weight: bold;
+}
+
+.movieWant{
+  position: absolute;
+  margin-left: 20rpx;
+  font-size: 26rpx;
+  width: 90rpx;
+  text-align: center;
+  align-items: center;
+  background-color: #EEE8AA;
+  border-radius: 5px;
+  color: #FFA500;
+  right: 0;
+  margin-right: 22rpx;
+}
+
+.instFraction-item{
+  font-size: 30rpx;
+  color: #666;
+}
+
+.fraction-item{
+  font-size: 36rpx;
+  color: #ff7f50;
+}
+
+.performer{
+  font-size: 28rpx;
+  color: #666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap
+}
+
+.toSeeData{
+  display: flex;
+  flex-direction: row;
+  margin: 20rpx 0;
+  align-items: center;
+  overflow: hidden;
+}
+
+.toSeeData image{
+  width: 32rpx;
+  height: 32rpx;
+}
+
+.toSeeData text{
+  color: #666;
+  font-size: 26rpx;
+  margin-left: 8rpx;
+}
+
+.toSeeContarin{
+  display: flex;
+  align-items:center;
+}
+
+.toSee{
+  font-size: 28rpx;
+  width: 100rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  background-color: #dc143c;
+  color: #fff;
+  border-radius: 15px;
+  margin-right: 20rpx;
+}
+
+.toSeeLike{
+  margin-left: 18rpx;
+}

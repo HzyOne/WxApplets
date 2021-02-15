@@ -1,0 +1,9 @@
+{
+  "usingComponents":{
+    "l-collapse":"../../../dist/collapse/index",
+    "l-collapse-item":"../../../dist/collapse-item/index",
+    "l-icon":"../../../dist/icon/index"
+  },
+  "navigationBarTitleText":"电影详情",
+  "navigationBarBackgroundColor": "#222222"
+}
